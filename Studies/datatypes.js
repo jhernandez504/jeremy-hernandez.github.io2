@@ -40,7 +40,7 @@ var user = {
     lastName: 'Hernandez'
 }; //Object datatype assigned value of {} with key value pairs within.
 //2c. Functions is another complex datatype.
-//Functions are defined as keyword 'function' followed by () for parameters
+//Functions are defined as keyword 'function' followed by name and () for parameters
 // and {} where code is performed inside.
-               /** function keyword =>*/
-var doNothing = function(x){return x;}; //Typical function structure datatype.
+/** function keyword =>*/
+function doNothing(x){return x;}; //Typical function structure datatype.
